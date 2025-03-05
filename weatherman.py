@@ -29,7 +29,7 @@ message = ("Maximitemperatur: " + str(temp_max)
            + weather_result_json["daily_units"]["precipitation_sum"])
 
 ai_headers = {
-    "Authorization": "Bearer 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"
+    "Authorization": "Bearer <key>"
 }
 
 ai_body = {
